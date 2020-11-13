@@ -10,7 +10,7 @@
 # Penjelasan
 Pada praktikum kali ini kita diharuskan membuat sebuah topologi sederhana dimana pada sisi clien terdiri dari 2 client yaitu ```Sidoarjo``` dan ```Gresik```. Pada bagian server-side ada 3 buah server yaitu ```Malang```, ```Mojokerto``` dan ```Probolinggo```. ```Malang``` fungsi nya adalah sebagai main server sementara ```Probolinggo``` berfungsi sebagai slave dan yang terakhir yaitu ```Probolinggo``` yang berfungsi sebagai web server. Client dan server-side di hubungkan dengan router ```Surabaya```.
 
-//gambar topologi.sh
+![Topologi](/image/topologi.png)
 
 # Task 1
 Kita diminta untuk membuat sebuah domain utama dengan alamat ```http://semerut10.pw``` pada server malang. Pada gambar dibawah ini kita hanya perlu membuat sebuah zone baru yaitu ``semerut10.pw`` dan tipe yang digunakan adalah master karena merupakan main server. Berikutnya, ada perintah also notify dan juga allow transfer dari ``IP Mojokerto`` yang berfugsi untuk menghubungkan antara UML Malang dan UML Mojokerto dikarenakan UML Mojokerto adalah slave dari UML Malang.
