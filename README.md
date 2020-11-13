@@ -1,6 +1,7 @@
 # Lapres Jaringan Komputer Kelompok T10
 
 ## Christian Andrew Tantono 05311840000017
+## Rafi aldi 05311840000018
 
 ## List IP
 - IP Malang 10.151.83.162
